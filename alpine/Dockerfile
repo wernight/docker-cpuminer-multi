@@ -1,5 +1,4 @@
-# Note: On Alpine 3.5 curl-dev uses LibreSSL which is incompatible with the required OpenSSL-dev.
-FROM alpine:3.4
+FROM alpine:3.9
 
 RUN set -x \
     # Runtime dependencies.
